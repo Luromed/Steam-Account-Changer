@@ -5,7 +5,6 @@ taskkill /f /im steamwebhelper.exe
 taskkill /f /im steamservice.exe
 taskkill /f /im steam.exe
 taskkill /f /im gameoverlayui.exe
-taskkill /f /im csgo.exe
 cls
 echo =======================================
 echo.
