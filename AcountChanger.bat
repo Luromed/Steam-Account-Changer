@@ -5,6 +5,7 @@ taskkill /f /im steamwebhelper.exe
 taskkill /f /im steamservice.exe
 taskkill /f /im steam.exe
 taskkill /f /im gameoverlayui.exe
+taskkill /f /im csgo.exe
 cls
 echo =======================================
 echo.
@@ -61,7 +62,7 @@ echo reg add "HKCU\Software\Valve\Steam" /v RememberPassword /t REG_DWORD /d 1 /
 echo start steam://open/main >>%username%ChangerL.bat
 echo cls >>%username%ChangerL.bat
 echo echo Thank you for using my Acount Changer! Luromed out. >>%username%ChangerL.bat
-echo pause >>%username%ChangerL.bat
+echo timeout /t 5 /nobreak >>%username%ChangerL.bat
 echo exit >>%username%ChangerL.bat
 cls
 echo ======================================================================================================================
